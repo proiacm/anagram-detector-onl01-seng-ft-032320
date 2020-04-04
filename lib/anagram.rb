@@ -8,6 +8,7 @@ end
 def match(array)
   %w(array)
   array.each do {|word| word.sort}
+end
 
 end
 
