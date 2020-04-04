@@ -4,7 +4,7 @@ new_array = [
   ]
 def initialize(word)
   @word = word
-  new_array << word
+  new_array << @word
 end
 
 def match(array)
