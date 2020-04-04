@@ -8,7 +8,7 @@ end
 def match(array)
 no_match = []
  array.split(" ")
-    if array.each do {|word| @word == word}
+    if array.each do 
       
       else
         no_match
