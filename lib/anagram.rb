@@ -6,6 +6,7 @@ def initialize(word)
 end
 
 def match(array)
+  %w(array)
 
 end
 
