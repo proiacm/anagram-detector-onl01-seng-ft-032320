@@ -7,7 +7,7 @@ end
 
 def match(array)
 no_match = []
- array.split(" ")
+ %w(array).split(" ")
     if array.each do 
       
       else
