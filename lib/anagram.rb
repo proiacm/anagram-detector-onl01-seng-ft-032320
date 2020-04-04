@@ -6,7 +6,7 @@ def initialize(word)
 end
 
 def match(possible_matches)
- %w(possible_matches).split
+ %w(possible_matches).split(" ")
  possible_matches.each do |word|
       if
         word == word
