@@ -5,7 +5,7 @@ def initialize(words)
   @words = words
 end
 
-def self.match(list)
+def match(possible_matches)
  %w()
 end
 
