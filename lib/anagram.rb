@@ -10,7 +10,7 @@ def match(possible_matches)
  possible_matches.each do |word|
       if
         word == word
-        return true 
+        return possible_matches
       else
         possible_matches = []
       end
