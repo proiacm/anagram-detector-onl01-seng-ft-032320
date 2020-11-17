@@ -1,13 +1,17 @@
-class Anagram
-attr_accessor :word
+require 'pry'
 
-def initialize(word)
-  @word = word
-end
+class Anagram 
+  attr_accessor :word
 
-def match(new_array)
-  new_array.select do |word| 
-    word.split("").sort == @word.split("").sort
+  def initialize(word) 
+    @word = word
+  end
+
+  def match(arr)
+    arr.select do |word|
+      # binding.pry
+      word.split('').sort == @word.split('').sort
     end
   end
 end
+
